@@ -1,0 +1,745 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+/* =====tobar-code===== */
+
+.top_bar {
+    padding: 10px 0; 
+}
+
+.top-bar span {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+/* Ensures proper stacking on smaller screens */
+@media (max-width: 768px) {
+    .top_bar .col-12 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* ====navbar css code ========= */
+
+.navbar{
+    width: 100vw;
+}
+/* Navbar Logo */
+.navbar-brand img {
+    height: 40px;
+    margin-left: 15px;
+}
+
+/* Left-align menu */
+.navbar-nav {
+    text-align:left;
+    margin-left: 10%;
+    font-size: 18px;
+gap: 35px;
+font-family: "Poppins", sans-serif;
+
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: white !important;
+    text-align: left;
+
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    background-color: black !important;
+}
+
+
+/* Icons */
+.icons {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    color: white;
+    margin: 20px 50px;
+
+}
+
+/* Responsive Fixes */
+@media (max-width: 992px) { 
+    .navbar-collapse {
+        text-align: left;
+    }
+    .icons {
+        margin: 15px 0;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+/* =====hero section css====== */
+.hero_info {
+    font-family: "Poppins", sans-serif;
+    padding: 20px; 
+}
+
+/* Adjusting the h1 for smaller screens */
+.hero_info h1 {
+    margin-top: 60px;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+/* Adjusting paragraph text for smaller screens */
+.hero_info p {
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* Win button styles */
+.win-btn {
+    margin-left: 80px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 25%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.win-btn:hover {
+    background: none;
+    color: black;
+    border: 1px solid black;
+}
+
+/* Media Query for devices with max width of 768px (Tablets) */
+@media (max-width: 768px) {
+    .hero_info h1 {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+    .hero_info p {
+        margin-left: 20px;
+    }
+    .win-btn {
+        width: 50%; /* Increase button width for smaller screens */
+        margin-left: 20px;
+    }
+}
+
+/* Media Query for devices with max width of 480px (Mobile Devices) */
+@media (max-width: 480px) {
+    .hero_info h1 {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .hero_info p {
+        margin-left: 20px;
+    }
+    .win-btn {
+        width: 80%; /* Make the button width even larger for small screens */
+        margin-left: 10px;
+    }
+}
+
+/* Media Query for larger screens (Desktop) */
+@media (min-width: 1024px) {
+    .hero_info h1 {
+        font-size: 60px; /* Increase font size on larger screens */
+        margin-left: 80px;
+    }
+    .hero_info p {
+        margin-left: 80px;
+    }
+    .win-btn {
+        width: 20%; /* Keep button width smaller for large screens */
+    }
+}
+
+
+
+
+/* ==========first seession css=============== */
+.pay-txt{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+
+}
+
+ /* =============second session of images ============= */
+     .image-container {
+        position: relative; 
+        width: 100%;
+        display: inline-block;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .image-container button {
+        position: absolute; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 10px 20px;
+        cursor: pointer;
+
+        font-family: "Poppins", sans-serif;
+
+    }
+
+    /* Hover effect for button */
+    .image-container button:hover {
+       background: red;
+       color: white;
+    }
+
+    .btn .arrow-icon {
+        display: none; 
+    }
+    
+    .btn:hover .arrow-icon,
+    .btn:focus .arrow-icon {
+        display: inline-block; 
+    }
+
+    /* ===========featured items csss============= */
+    .feature-text {
+        font-family: "Poppins", sans-serif;
+        color: black;
+        padding-top: 25px;
+    }
+    
+    .feature {
+        margin-top: 50px;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+    }
+    
+    .f-text {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        padding: 20px;
+        color: gray;
+        transition: color 0.3s ease;
+    }
+    
+    .f-text:hover {
+        color: black;
+    }
+
+    /* ========featues images css=========== */
+    .card {
+        border: none;
+        border-radius: 20px;
+        background-color: rgba(245, 129, 183, 0.5) !important;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card-img-top {
+        width: 100%;
+        height: auto;
+    }
+    
+    .card-badge, .add-to-cart-btn {
+        transition: opacity 0.3s ease;
+    }
+    
+    .badge {
+        background-color: antiquewhite;
+        color: black;
+        font-size: 17px;
+    }
+    
+    .product-name {
+        padding-top: 20px;
+        font-weight:600;
+        color:black;
+        font-family: "Poppins", sans-serif;
+
+    }
+    .product-name:hover{
+        color: #dc3545;
+    }
+    .product-price {
+        font-size: 1.2rem;
+       color: #dc3545;
+       font-family: "Poppins", sans-serif;
+
+    }
+    
+    .btn {
+        background-color: #dc3545;
+        border: none;
+        transition: background-color 0.3s ease;
+        color: white;
+    }
+    
+    .btn:hover {
+        background-color: #c82333;
+    }
+
+
+
+
+    /* =========offer runing css============ */
+    .offer-cod {
+        background-color: #dc3545;
+        padding: 10px 0;
+    }
+    
+    .offer_code {
+        font-family: Arial, Helvetica, sans-serif !important;
+        font-size: 22px;
+        font-weight: bold;
+        text-transform: capitalize;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+    }
+    
+    .fa-solid {
+        font-size: 26px;
+        color: white !important;
+    }
+    
+    /* Responsive Styles */
+    
+    /* For mobile devices (up to 767px) */
+    @media (max-width: 767px) {
+        .offer_code {
+            font-size: 18px;
+            gap: 10px;
+        }
+    
+        .fa-solid {
+            font-size: 22px;
+        }
+    }
+    
+    /* For tablets (768px to 1023px) */
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .offer_code {
+            font-size: 20px;
+            gap: 12px;
+            white-space: nowrap; 
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    
+        .fa-solid {
+            font-size: 24px;
+        }
+    }
+    
+    /* For desktops (1024px and above) */
+    @media (min-width: 1024px) {
+        .offer_code {
+            font-size: 22px;
+            gap: 15px;
+        }
+    
+        .fa-solid {
+            font-size: 26px;
+        }
+    }
+    /* ============Explore-code csss============ */
+ /* Base styles for all screen sizes */
+.Explore-code {
+    padding: 50px;
+}
+
+.l-card-info h1 {
+    font-size: 50px;
+    margin: 30px 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.l-card-info p {
+    margin: 30px 0;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+}
+
+.ex-btn {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    width: auto; /* Auto width for better responsiveness */
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ex-btn:hover {
+    background: none;
+    color: black;
+    border: 1px solid black;
+}
+
+/* Media Queries for Responsive Design */
+
+/* For tablets and iPads (screen width between 768px and 1024px) */
+@media (max-width: 1024px) {
+    .Explore-code {
+        padding: 40px;
+    }
+
+    .l-card-info h1 {
+        font-size: 35px;
+        margin: 20px 0;
+    }
+
+    .l-card-info p {
+        margin: 20px 0;
+    }
+
+    .ex-btn {
+        padding: 12px 25px;
+    }
+}
+
+/* For small tablets and large mobile devices (screen width between 481px and 767px) */
+@media (max-width: 767px) {
+    .Explore-code {
+        padding: 30px;
+    }
+
+    .l-card-info h1 {
+        font-size: 35px;
+        margin: 15px 0;
+    }
+
+    .l-card-info p {
+        margin: 15px 0;
+    }
+
+    .ex-btn {
+        padding: 10px 20px;
+    }
+}
+
+/* For mobile devices (screen width less than 480px) */
+@media (max-width: 480px) {
+    .Explore-code {
+        padding: 20px;
+    }
+
+    .l-card-info h1 {
+        font-size: 28px;
+        margin: 10px 0;
+    }
+
+    .l-card-info p {
+        margin: 10px 0;
+    }
+
+    .ex-btn {
+        padding: 8px 15px;
+    }
+}
+
+
+/* =========New Items in store================ */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.container h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+
+
+}
+.navigation-buttons {
+    display: flex;
+    gap: 12px;
+}
+.navigation-buttons button {
+    border: 1px solid #000;
+    background: transparent;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+.navigation-buttons button:hover{
+background: #dc3545;
+color: aliceblue;
+font-size: 20px;
+border: none;
+}
+
+
+/* =========brand css================= */
+.brand-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Adds spacing around each logo */
+    margin-left: 82px;
+}
+
+.brand-logo img {
+   width: 100%; 
+}
+/* ===========Testmonial css============== */
+.Testmonial-title{
+    text-align: center;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.testmonial-info-text{
+    text-align: center;
+    line-height: 2rem;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color:gray;
+    text-transform: capitalize;
+
+}
+.testmonial-image {
+    padding: 25px;
+}
+.user-text{
+    padding: 25px;
+}
+.user-text span{
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.carousel-control-next i.fa-solid{
+    color: #c82333!important;
+}
+.carousel-control-prev i.fa-solid{
+    color: #c82333!important;
+}
+
+
+/* =========newsletter css============== */
+.news-section{
+    background-color:#dc3545;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.news-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+}
+
+.newsletter-content{
+align-items: center;
+justify-content: center;
+padding-top: 50px;
+padding-left: 20px;
+line-height: 25px;
+}
+.newsletter-heading{
+    font-size:2.5rem;
+    color: white;
+    padding-left: 20px;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+
+}
+.newsletter-text{
+    font-size: 16px;
+    color: white;
+    padding-left: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.input-group {
+    max-width: 450px; /* Ensures it doesn't stretch too much */
+    margin: auto; /* Centers the block */
+    gap: 10px;
+}
+
+.newsletter-input {
+    border-radius: 5px 0 0 5px; /* Rounds only the left side */
+    padding-left: 25px;
+}
+
+.subscribe {
+    border-radius: 0 5px 5px 0; /* Rounds only the right side */
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+font-weight: bold;
+}
+
+.subscribe:hover {
+  background: none;
+  border: 2px solid black;
+  color: black;
+}
+
+
+/*==================== image gallery =================== */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery .col {
+    position: relative;
+    padding: 5px;
+}
+
+.image-gallery {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Overlay Effect */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-gallery:hover .overlay {
+    opacity: 1;
+}
+
+.image-gallery:hover img {
+    transform: scale(1.1);
+}
+
+.overlay i {
+    transition: color 0.3s ease-in-out;
+}
+
+.overlay i:hover {
+    color: #ddd;
+}
+
+
+/* ======================footer style===================== */
+
+
+ .foot-first-text{
+   margin: 50px;
+}
+.footer-text{
+    line-height: 1.5rem;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #666;
+    text-align: left;;
+
+}
+.footer-heading{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px
+}
+.foot-list li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+
+} 
+
+.foot-list {
+    padding: 0;
+}
+.foot-list li:hover {
+    color: #dc3545; 
+}
+
+.copyright-text h2{
+    font-family: "Poppins", sans-serif;
+font-size: 1rem ;
+font-weight: 600;
+color: black!important;
+padding-top: 35px;
+text-align: center;
+border-top: 1px solid gray;
+
+}

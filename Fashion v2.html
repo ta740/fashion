@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Shopping Store</title>
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="/css/fashion v2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <!-- <div class="container-fluid">
+        <div class="row top_bar text-center">
+            <div class="col-lg-4 col-md-4 col-12 d-flex justify-content-center align-items-center">
+                <span>Support: productsentryas.com</span>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 d-flex justify-content-center align-items-center">
+                <span>Big sale offer with 50% | Learn More</span>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 d-flex justify-content-center align-items-center">
+                <span>Mon-Fri Open: 11:00 - 19:00</span>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-4">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="/html/index.html"><img src="/img/logo.svg" alt="my_website logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Home</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-white bg-dark" href="/html/index.html">Fashion V1</a></li>
+                            <li><a class="dropdown-item text-white bg-dark" href="/html/Fashion v2.html">Fashion V2</a></li>
+                            <li><a class="dropdown-item text-white bg-dark" href="/html/jewellry.html">Jewellery</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Product</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-white bg-dark" href="#">All Product</a></li>
+                            <li><a class="dropdown-item text-white bg-dark" href="#">Shop Sidebar</a></li>
+                            <li><a class="dropdown-item text-white bg-dark" href="#">Product Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-white bg-dark" href="#">About</a></li>
+                            <li><a class="dropdown-item text-white bg-dark" href="#">Blog Details</a></li>
+                            <li><a class="dropdown-item text-white bg-dark" href="#">Cart</a></li>
+                            <li><a class="dropdown-item text-white bg-dark" href="#">Checkout</a></li>
+                            <li><a class="dropdown-item text-white bg-dark" href="#">Success</a></li>
+                            <li><a class="dropdown-item text-white bg-dark" href="#">Wishlist</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">MegaMenu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+                <div class="icons">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-circle-user"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================================slider=================== -->
+    <div class="container-fluid px-lg-5 px-md-3 px-2 py-lg-5 py-md-4 py-3">
+        <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner rounded-4 overflow-hidden">
+                <!-- Carousel Item 01 -->
+                <div class="carousel-item active">
+                    <div class="collection-container">
+                        <div class="text-section">
+                            <p class="discount-badge">Up to 10% Off</p>
+                            <h1>Children Collection <br class="d-none d-md-block"> in Winter Season</h1>
+                            <a href="/html/shop.html" class="btn-custom">See Collection</a>
+                        </div>
+                        <div class="image-section">
+                            <img src="/img/hero1.jpg" alt="Children's Winter Collection" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel Item 02 -->
+                <div class="carousel-item">
+                    <div class="collection-container">
+                        <div class="text-section">
+                            <p class="discount-badge">Up to 50% Off</p>
+                            <h1>Elegant Man Collection <br class="d-none d-md-block"> in Summer Season</h1>
+                            <a href="/html/shop.html" class="btn-custom">See Collection</a>
+                        </div>
+                        <div class="image-section">
+                            <img src="/img/hero2.jpg" alt="Men's Summer Collection" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel Item 03 -->
+                <div class="carousel-item">
+                    <div class="collection-container">
+                        <div class="text-section">
+                            <p class="discount-badge">Up to 20% Off</p>
+                            <h1>Elegant Woman Collection <br class="d-none d-md-block"> in Summer</h1>
+                            <a href="/html/shop.html" class="btn-custom">See Collection</a>
+                        </div>
+                        <div class="image-section">
+                            <img src="/img/hero5.jpg" alt="Women's Summer Collection" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+<!-- =====================Best selling product ============================= -->
+
+
+<div class="container p-5">
+    <h2>Best selling product</h2>
+    <div class="navigation-buttons">
+        <button>&lt;</button>
+        <button>&gt;</button>
+    </div>
+</div>
+ <div class="container">
+            <div class="row">
+                <!-- Product 1 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card position-relative" data-product="Pure Black Cotton T-Shirt" data-price="$250.00">
+                        <img src="/img/product4.png" class="card-img-top clickable-image" alt="Pure Black Cotton T-Shirt">
+                        <span class="badge text-dark position-absolute top-0 start-0 m-2">8%</span>
+                        <div class="card-badge position-absolute top-50 start-50 translate-middle text-center d-none">
+                            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="btn add-to-cart-btn btn-danger btn-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                    <!-- Text and Price Outside Card -->
+                    <div class="product-details text-center mt-2">
+                        <h5 class="product-name">Pure Black Cotton T-Shirt</h5>
+                        <p class="product-price  fw-bold">$200.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card position-relative" data-product="Pure Black Cotton T-Shirt" data-price="$250.00">
+                        <img src="/img/product5.png" class="card-img-top clickable-image" alt="Pure Black Cotton T-Shirt">
+                        <span class="badge text-dark position-absolute top-0 start-0 m-2">-12%</span>
+                        <div class="card-badge position-absolute top-50 start-50 translate-middle text-center d-none">
+                            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="btn add-to-cart-btn btn-danger btn-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                    <!-- Text and Price Outside Card -->
+                    <div class="product-details text-center mt-2">
+                        <h5 class="product-name">Pure Black Cotton T-Shirt</h5>
+                        <p class="product-price fw-bold">$220.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card position-relative" data-product="Pure Black Cotton T-Shirt" data-price="$250.00">
+                        <img src="/img/product6.png" class="card-img-top clickable-image" alt="Pure Black Cotton T-Shirt">
+                        <!-- <span class="badge text-dark position-absolute top-0 start-0 m-2">-25%</span> -->
+                        <div class="card-badge position-absolute top-50 start-50 translate-middle text-center d-none">
+                            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="btn add-to-cart-btn btn-danger btn-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                    <!-- Text and Price Outside Card -->
+                    <div class="product-details text-center mt-2">
+                        <h5 class="product-name">Pure Black Cotton T-Shirt</h5>
+                        <p class="product-price  fw-bold">$350.00</p>
+                    </div>
+                </div>
+
+                 <!-- Product 4 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card position-relative" data-product="Pure Black Cotton T-Shirt" data-price="$250.00">
+                        <img src="/img/product7.png" class="card-img-top clickable-image" alt="Pure Black Cotton T-Shirt">
+                        <!-- <span class="badge text-dark position-absolute top-0 start-0 m-2">-25%</span> -->
+                        <div class="card-badge position-absolute top-50 start-50 translate-middle text-center d-none">
+                            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="btn add-to-cart-btn btn-danger btn-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                    <!-- Text and Price Outside Card -->
+                    <div class="product-details text-center mt-2">
+                        <h5 class="product-name">Pure Black Cotton T-Shirt</h5>
+                        <p class="product-price  fw-bold">$250.00</p>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card position-relative" data-product="Pure Black Cotton T-Shirt" data-price="$250.00">
+                        <img src="/img/product8.png" class="card-img-top clickable-image" alt="Pure Black Cotton T-Shirt">
+                        <!-- <span class="badge text-dark position-absolute top-0 start-0 m-2">-25%</span> -->
+                        <div class="card-badge position-absolute top-50 start-50 translate-middle text-center d-none">
+                            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="btn add-to-cart-btn btn-danger btn-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                    <!-- Text and Price Outside Card -->
+                    <div class="product-details text-center mt-2">
+                        <h5 class="product-name">Pure Black Cotton T-Shirt</h5>
+                        <p class="product-price  fw-bold">$450.00</p>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card position-relative" data-product="Pure Black Cotton T-Shirt" data-price="$250.00">
+                        <img src="/img/product9.png" class="card-img-top clickable-image" alt="Pure Black Cotton T-Shirt">
+                        <!-- <span class="badge text-dark position-absolute top-0 start-0 m-2">-25%</span> -->
+                        <div class="card-badge position-absolute top-50 start-50 translate-middle text-center d-none">
+                            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="btn add-to-cart-btn btn-danger btn-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                    <!-- Text and Price Outside Card -->
+                    <div class="product-details text-center mt-2">
+                        <h5 class="product-name">Pure Black Cotton T-Shirt</h5>
+                        <p class="product-price  fw-bold">$350.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--==================================== next part of code ===================================== -->
+
+<div class="container-fluid pt-5">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="image-container">
+                <img src="/img/men2.jpg" alt="Men-2">
+                <button class="btn">Men <i class="fa-solid fa-arrow-right arrow-icon"></i></button>
+            </div>
+        </div>
+        <!-- 02 -->
+        <div class="col-lg-6">
+            <div class="image-container">
+                <img src="/img/women2.jpg" alt="Men-2">
+                <button class="btn">Women<i class="fa-solid fa-arrow-right arrow-icon"></i></button>
+            </div>
+        </div>
+        <!-- 03 -->
+        <div class="col-lg-6 mt-3">
+            <div class="image-container">
+                <img src="/img/kid1.jpg" alt="Men-2">
+                <button class="btn">kid<i class="fa-solid fa-arrow-right arrow-icon"></i></button>
+            </div>
+        </div>
+        <!-- 04 -->
+        <div class="col-lg-6 mt-3">
+            <div class="image-container">
+                <img src="/img/children2.jpg" alt="Men-2">
+                <button class="btn">Children<i class="fa-solid fa-arrow-right arrow-icon"></i></button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+ <!-- =============================New items in store================================= -->
+ <div class="container-store p-lg-5 p-md-4 p-3">
+    <div class="feature-text text-center mb-lg-4 mb-md-3 mb-2">
+        <h1 class="section-title">New items in store</h1>
+    </div>
+    <div class="feature">
+        <div class="row gx-lg-3 gx-md-2 gx-1 gy-2 justify-content-center">
+            <!-- T-shirt -->
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                <div class="category-item p-2">
+                    <h4 class="f-text mb-0">T-shirt</h4>
+                </div>
+            </div>
+            
+            <!-- Jeans -->
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                <div class="category-item p-2">
+                    <h4 class="f-text mb-0">Jeans</h4>
+                </div>
+            </div>
+            
+            <!-- Casual Shirt -->
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                <div class="category-item p-2">
+                    <h4 class="f-text mb-0">Casual Shirt</h4>
+                </div>
+            </div>
+            
+            <!-- Leggings -->
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                <div class="category-item p-2">
+                    <h4 class="f-text mb-0">Leggings</h4>
+                </div>
+            </div>
+            
+            <!-- Skirt -->
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                <div class="category-item p-2">
+                    <h4 class="f-text mb-0">Skirt</h4>
+                </div>
+            </div>
+            
+            <!-- Shoes -->
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                <div class="category-item p-2">
+                    <h4 class="f-text mb-0">Shoes</h4>
+                </div>
+            </div>
+            
+            <!-- Accessories -->
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                <div class="category-item p-2">
+                    <h4 class="f-text mb-0">Accessories</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  
+  <div class="container">
+    <div class="row">
+        <!-- Product 1 -->
+        <div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+            <div class="card position-relative" data-product="Pure Black Cotton T-Shirt" data-price="$250.00">
+                <img src="/img/product1.png" class="card-img-top clickable-image" alt="Pure Black Cotton T-Shirt">
+                <span class="badge text-dark position-absolute top-0 start-0 m-2">-25%</span>
+                <div class="card-badge position-absolute top-50 start-50 translate-middle text-center d-none">
+                    <a href="#" class="btn btn-light btn-sm"><i class="fas fa-heart"></i></a>
+                    <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i></a>
+                    <a href="#" class="btn add-to-cart-btn btn-danger btn-sm">Add to Cart</a>
+                </div>
+            </div>
+            <!-- Text and Price Outside Card -->
+            <div class="product-details text-center mt-2">
+                <h5 class="product-name">Pure Black Cotton T-Shirt</h5>
+                <p class="product-price  fw-bold">$250.00</p>
+            </div>
+        </div>
+
+
+        <!-- 02 -->
+
+        <div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+            <div class="card position-relative" data-product="Pure Black Cotton T-Shirt" data-price="$250.00">
+                <img src="/img/product2.png" class="card-img-top clickable-image" alt="Pure Black Cotton T-Shirt">
+                <span class="badge text-dark position-absolute top-0 start-0 m-2">-8%</span>
+                <div class="card-badge position-absolute top-50 start-50 translate-middle text-center d-none">
+                    <a href="#" class="btn btn-light btn-sm"><i class="fas fa-heart"></i></a>
+                    <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i></a>
+                    <a href="#" class="btn add-to-cart-btn btn-danger btn-sm">Add to Cart</a>
+                </div>
+            </div>
+            <!-- Text and Price Outside Card -->
+            <div class="product-details text-center mt-2">
+                <h5 class="product-name">Pure Black Cotton T-Shirt</h5>
+                <p class="product-price fw-bold">$250.00</p>
+            </div>
+        </div>
+<!-- 03 -->
+<div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+    <div class="card position-relative" data-product="Pure Black Cotton T-Shirt" data-price="$250.00">
+        <img src="/img/product3 (1).png" class="card-img-top clickable-image" alt="Pure Black Cotton T-Shirt">
+        <span class="badge text-dark position-absolute top-0 start-0 m-2">-12%</span>
+        <div class="card-badge position-absolute top-50 start-50 translate-middle text-center d-none">
+            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-heart"></i></a>
+            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i></a>
+            <br>
+            <a href="#" class="btn add-to-cart-btn btn-danger btn-sm">Add to Cart</a>
+        </div>
+    </div>
+    <!-- Text and Price Outside Card -->
+    <div class="product-details text-center mt-2">
+        <h5 class="product-name">Pure Black Cotton T-Shirt</h5>
+        <p class="product-price  fw-bold">$250.00</p>
+    </div>
+</div>
+
+
+<!-- 04 -->
+
+<div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+    <div class="card position-relative" data-product="Pure Black Cotton T-Shirt" data-price="$250.00">
+        <img src="/img/product16.png" class="card-img-top clickable-image" alt="Pure Black Cotton T-Shirt">
+        <span class="badge text-dark position-absolute top-0 start-0 m-2">-8%</span>
+        <div class="card-badge position-absolute top-50 start-50 translate-middle text-center d-none">
+            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-heart"></i></a>
+            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i></a>
+            <a href="#" class="btn add-to-cart-btn btn-danger btn-sm">Add to Cart</a>
+        </div>
+    </div>
+    <!-- Text and Price Outside Card -->
+    <div class="product-details text-center mt-2">
+        <h5 class="product-name">Pure Black Cotton T-Shirt</h5>
+        <p class="product-price fw-bold">$250.00</p>
+    </div>
+</div>
+<!-- 05 -->
+
+<div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+    <div class="card position-relative" data-product="Pure Black Cotton T-Shirt" data-price="$250.00">
+        <img src="/img/product8 (1).png" class="card-img-top clickable-image" alt="Pure Black Cotton T-Shirt">
+        <!-- <span class="badge text-dark position-absolute top-0 start-0 m-2">-12%</span> -->
+        <div class="card-badge position-absolute top-50 start-50 translate-middle text-center d-none">
+            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-heart"></i></a>
+            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i></a>
+            <a href="#" class="btn add-to-cart-btn btn-danger btn-sm">Add to Cart</a>
+        </div>
+    </div>
+    <!-- Text and Price Outside Card -->
+    <div class="product-details text-center mt-2">
+        <h5 class="product-name">Pure Black Cotton T-Shirt</h5>
+        <p class="product-price fw-bold">$250.00</p>
+    </div>
+</div>
+
+<!-- 06 -->
+
+<div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+    <div class="card position-relative" data-product="Pure Black Cotton T-Shirt" data-price="$250.00">
+        <img src="/img/product9 (1).png" class="card-img-top clickable-image" alt="Pure Black Cotton T-Shirt">
+        <span class="badge text-dark position-absolute top-0 start-0 m-2">-8%</span>
+        <div class="card-badge position-absolute top-50 start-50 translate-middle text-center d-none">
+            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-heart"></i></a>
+            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i></a>
+            <a href="#" class="btn add-to-cart-btn btn-danger btn-sm">Add to Cart</a>
+        </div>
+    </div>
+    <!-- Text and Price Outside Card -->
+    <div class="product-details text-center mt-2">
+        <h5 class="product-name">Pure Black Cotton T-Shirt</h5>
+        <p class="product-price fw-bold">$250.00</p>
+    </div>
+</div>
+
+
+<!-- 07 -->
+
+<div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+    <div class="card position-relative" data-product="Pure Black Cotton T-Shirt" data-price="$250.00">
+        <img src="/img/product11.png" class="card-img-top clickable-image" alt="Pure Black Cotton T-Shirt">
+        <!-- <span class="badge text-dark position-absolute top-0 start-0 m-2">-12%</span> -->
+        <div class="card-badge position-absolute top-50 start-50 translate-middle text-center d-none">
+            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-heart"></i></a>
+            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i></a>
+            <a href="#" class="btn add-to-cart-btn btn-danger btn-sm">Add to Cart</a>
+        </div>
+    </div>
+    <!-- Text and Price Outside Card -->
+    <div class="product-details text-center mt-2">
+        <h5 class="product-name">Pure Black Cotton T-Shirt</h5>
+        <p class="product-price fw-bold">$250.00</p>
+    </div>
+</div>
+<!-- 08 -->
+
+<div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+    <div class="card position-relative" data-product="Pure Black Cotton T-Shirt" data-price="$250.00">
+        <img src="/img/product10.png" class="card-img-top clickable-image" alt="Pure Black Cotton T-Shirt">
+        <span class="badge text-dark position-absolute top-0 start-0 m-2">-12%</span>
+        <div class="card-badge position-absolute top-50 start-50 translate-middle text-center d-none">
+            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-heart"></i></a>
+            <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i></a>
+            <a href="#" class="btn add-to-cart-btn btn-danger btn-sm">Add to Cart</a>
+        </div>
+    </div>
+    <!-- Text and Price Outside Card -->
+    <div class="product-details text-center mt-2">
+        <h5 class="product-name">Pure Black Cotton T-Shirt</h5>
+        <p class="product-price fw-bold">$250.00</p>
+    </div>
+</div>
+
+
+
+
+    </div>
+</div>
+<!-- *************=================code end===========*************************** -->
+
+
+
+<!-- *******Winter jacket***************** -->
+
+<section class="mt-5 p-5">
+    <div class="container-code bg-light-pink">
+      <div class="row align-items-center">
+        <!-- Image Section -->
+        <div class="col-lg-6 col-md-6 col-12 p-0">
+          <img src="/img/card3.jpg" alt="Winter Jacket" class="img-fluid w-100" style="object-fit: cover; height: 100%;">
+        </div>
+        <!-- Info Section -->
+        <div class="col-lg-6 col-md-6 col-12 text-center text-md-start mt-4 mt-md-0">
+          <div class="winter-info">
+            <h1>Winter jacket limited <br> time offer 40%</h1>
+            <p class="text-muted">Until 02/15/24 Use code WINTER at checkout</p>
+            <a href="/html/shop.html"><button class="shop-btn">Shop Now</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- **************end code******************* -->
+   <!-- ===================brand images ================== -->>
+<div class="container-fluid pt-5">
+    <!-- <marquee behavior="scroll" direction="left" scrollamount="6"> -->
+    <div class="row justify-content-center align-items-center text-center g-4">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 brand-logo">
+            <img src="/img/brand_1.svg" alt="Brand 1" class="img-fluid">
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 brand-logo">
+            <img src="/img/brand_2.svg" alt="Brand 2" class="img-fluid">
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 brand-logo">
+            <img src="/img/brand_3.svg" alt="Brand 3" class="img-fluid">
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 brand-logo">
+            <img src="/img/brand_4.svg" alt="Brand 4" class="img-fluid">
+        </div>
+    </div>
+<!-- </marquee> -->
+
+</div>
+
+<!-- ==================Testmonial code ====================== -->
+
+<section style="padding-top: 50px;">
+    <div class="container-fluid bg-light mt-5">
+        <h1 class="Testmonial-title text-center">What Our People Say</h1>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="testmonial-info-text text-center">
+                        <blockquote>Shopping at Sattiyas has been an absolute delight! I've had the pleasure of being a <br> 
+                            customer for the past year, and I can confidently say that this is my go-to online shopping <br> 
+                            destination. Highly recommend!</blockquote>
+                        <div class="testmonial-image">
+                            <img src="/img/user.png" alt="user-1" class="rounded-circle" width="100">
+                            <div class="user-text">
+                                <span >Bolan Ahmed</span><br>
+                                <span>From London</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="testmonial-info-text text-center">
+                        <blockquote>Shopping at Sattiyas has been an absolute delight! I've had the pleasure of being a <br> 
+                            customer for the past year, and I can confidently say that this is my go-to online shopping <br> 
+                            destination. Highly recommend!</blockquote>
+                        <div class="testmonial-image">
+                            <img src="/img/user2.png" alt="user-2" class="rounded-circle" width="100">
+                            <div class="user-text">
+                                <span >John Doe</span><br>
+                                <span>From UK</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="testmonial-info-text text-center">
+                        <blockquote>Shopping at Sattiyas has been an absolute delight! I've had the pleasure of being a <br> 
+                            customer for the past year, and I can confidently say that this is my go-to online shopping <br> 
+                            destination. Highly recommend!</blockquote>
+                        <div class="testmonial-image">
+                            <img src="/img/user3.png" alt="user-2" class="rounded-circle" width="100">
+                            <div class="user-text">
+                                <span >Kalio Hokeo</span><br>
+                                <span>From London</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev" style="left: -50px; background: none; border: none;">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next" style="right: -50px; background: none; border: none;">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+</section>
+
+
+<!-- ========********blog code============***************** -->
+<div class="container my-5 p-5">
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <h2 class="fw-bold">Read our exclusive fashion trendy articles</h2>
+        </div>
+        <div class="col-md-4 text-md-end mt-3 mt-md-0">
+            <a href="/html/all blog.html"> <button class="blog-btn">See All Blogs</button></a>
+        </div>
+    </div>
+</div>
+<!-- ************* blog image code***************** -->
+
+<div class="container pt-5">
+    <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+        <div class="blog-image">
+    <img src="/img/post1.jpg" alt="blog-image" class="img-fluid">
+        </div>
+    <div class="blog-info mt-3">
+        <article class="text-muted">JANUARY 13, 2023</article>
+        <h2>Mastering the art of wardrobe manage...</h2>
+        <p>Discover the key to simplifying your style with a capsule wardrobe. Learn how to curate a collection of versatile pieces that will elevate your fashion....</p>
+        <a href="/html/blogread.html" class="read-btn">Read More <i class="bi bi-arrow-up-right" style="font-weight:bold; color:#dc3545!important"></i></a>
+    </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+            <div class="blog-image">
+                <img src="/img/post2.jpg" alt="blog-image" class="img-fluid">
+                    </div>
+                <div class="blog-info mt-3">
+                    <article class="text-muted">JMARCH 18, 2023</article>
+                    <h2>Redefining style with eco-friendly choices</h2>
+                    <p>Dive into the world of sustainable fashion and explore how your choices can have a positive impact on the planet. From eco-friendly fabrics to..</p>
+                    <a href="/html/blogread.html" class="read-btn">Read More <i class="bi bi-arrow-up-right" style="font-weight:bold; color:#dc3545!important"></i></a>
+                    </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+            <div class="blog-image">
+                <img src="/img/post3.jpg" alt="blog-image" class="img-fluid">
+                    </div>
+                <div class="blog-info mt-3">
+                    <article class="text-muted">JANUARY 13, 2023</article>
+                    <h2>Tips for mixing and matching patterns</h2>
+                    <p>Pattern mixing can be a style statement, but it can also be intimidating. Learn the art of combining different patterns and prints to create unique and...</p>
+                    <a href="/html/blogread.html" class="read-btn">Read More <i class="bi bi-arrow-up-right" style="font-weight: bold; color:#dc3545!important"></i></a>
+                </div>
+        </div>
+    </div>
+</div>
+
+<!--=====================================image gallery======================== -->
+<div class="container-fluid pt-5 mt-5">
+    <div class="row gallery">
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12  mb-3">
+            <div class="image-gallery">
+                <img src="/img/instagram_1.jpg" alt="Image 1">
+                <div class="overlay">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12  mb-3">
+            <div class="image-gallery">
+                <img src="/img/instagram_2.jpg" alt="Image 2">
+                <div class="overlay">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12  mb-3">
+            <div class="image-gallery">
+                <img src="/img/instagram_3.jpg" alt="Image 3">
+                <div class="overlay">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <div class="image-gallery">
+                <img src="/img/instagram_4.jpg" alt="Image 4">
+                <div class="overlay">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12  mb-3">
+            <div class="image-gallery">
+                <img src="/img/instagram_5.jpg" alt="Image 5">
+                <div class="overlay">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 mb-3">
+            <div class="image-gallery">
+                <img src="/img/instagram_6.jpg" alt="Image 6">
+                <div class="overlay">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--============== First session================ -->
+<div class="container-fluid p-5">
+    <div class="row d-flex justify-content-center text-center">
+        <div class="col-lg-3 col-md-4 col-sm-12  d-flex align-items-center gap-3">
+            <div class="icon">
+                <i class="bi bi-truck" style="font-size: 2.5rem;" aria-label="Free Shipping"></i>
+            </div>
+            <div class="info-text text-start mt-4">
+               <h5 class="pay-txt ">Free Shipping</h5> 
+               <p class="text-muted">No need to worry about cost</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12  d-flex align-items-center gap-3">
+            <div class="icon">
+                <i class="bi bi-currency-dollar" style="font-size: 2.5rem;" aria-label="Payment Method"></i>
+            </div>
+            <div class="info-text text-start mt-5">
+               <h5 class="pay-txt ">Payment Method</h5> 
+               <p class="text-muted">Easy and hassle-free online transaction</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12  d-flex align-items-center gap-3">
+            <div class="icon">
+                <i class="bi bi-chat-text" style="font-size: 2.5rem;" aria-label="Online Support"></i>
+            </div>
+            <div class="info-text text-start mt-4">
+               <h5 class="pay-txt ">Online Support</h5> 
+               <p class="text-muted">24 hours a day, 7 days a week</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12  d-flex align-items-center gap-3">
+            <div class="icon">
+                <i class="bi bi-gift" style="font-size: 2.5rem;" aria-label="Secure Packaging"></i>
+            </div>
+            <div class="info-text text-start mt-5">
+               <h5 class="pay-txt ">Secure Packaging</h5> 
+               <p class="text-muted">Every order packaging securely placed</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ==============footer code ============================ -->
+
+<footer class="bg-dark text-white pt-5">
+    <div class="container p-3 p-md-5">  <!-- Responsive padding -->
+        <div class="row g-4">  <!-- Added gutter spacing -->
+            <!-- First Column -->
+            <div class=" col-lg-3 col-md-4 col-12 text-center text-md-start">  <!-- Responsive columns -->
+                <div class="foot-first-text">
+                    <img src="/img/logo.svg" alt="footer-logo" class="img-fluid mb-3" style="max-height: 40px;">
+                    <p class="footer-text small mb-3">Discover endless delights your one stop eCommerce destination.</p>
+                    <img src="/img/payment_method (3).svg" alt="payment_method" class="img-fluid" style="max-width: 200px;">
+                </div>
+            </div>
+
+            <!-- Second Column -->
+            <div class="col-lg-3 col-md-4 col-12 p-2 p-md-3">  <!-- Adjusted padding -->
+                <h3 class="footer-heading h6 mb-3">Get to know</h3>
+                <ul class="foot-list list-unstyled small">
+                    <li class="mb-2">About Us</li>
+                    <li class="mb-2">Product</li>
+                    <li class="mb-2">Press</li>
+                    <li class="mb-2">Blog</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+
+            <!-- Third Column -->
+            <div class="col-lg-3 col-md-4 col-12 p-2 p-md-3">
+                <h3 class="footer-heading h6 mb-3">Customer Service</h3>
+                <ul class="foot-list list-unstyled small">
+                    <li class="mb-2">Help Center</li>
+                    <li class="mb-2">Shipping & Delivery</li>
+                    <li class="mb-2">Exchange & Return</li>
+                    <li>Payment Method</li>
+                </ul>
+            </div>
+
+            <!-- Fourth Column -->
+            <div class="col-lg-3 col-md-4 col-12 p-2 p-md-3">
+                <h3 class="footer-heading h6 mb-3">Contact Information</h3>
+                <ul class="foot-list list-unstyled small">
+                    <li class="mb-2">Call : +00(244)14-50-774</li>
+                    <li class="mb-2">Email : info@sattiyas.com</li>
+                    <li>Mon – Fri : 11 am – 9 pm</li>
+                </ul>
+            </div>
+
+            <!-- Copyright -->
+            <div class="col-12 text-center mt-4 pt-3 border-top">
+                <p class="small mb-0">&copy; 2025, All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
